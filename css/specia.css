@@ -1,0 +1,45 @@
+/* Put any additional CSS here */
+body {
+  background-color: #333;
+}
+
+#app-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 800px;
+}
+
+h1 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: Gill Sans;
+	color: #0675ca;
+	/*color: #CCCC99;*/
+}
+
+canvas {
+  border: 3px solid #81ace1;
+  background: url("../image/space.jpg");
+  background-size: 800px 600px;
+}
+
+/*.instructions {
+  font-family: Palatino Linotype;
+  color: #0675ca;
+}
+.instructions h2 {
+  font-size: 1.8em;
+}*/
+
+.normal {
+	cursor: auto;
+}
+
+.handle {
+	cursor: pointer;
+}
+
+.body {
+	cursor: move;
+}
